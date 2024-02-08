@@ -1,13 +1,29 @@
 [class ^="container"]{
   background-color: red;
-  height: 80px;
   border: 1px solid black;
 }
 
 [class ^="col"]{
   border: 1px solid black;
+  background-color: aqua;
 }
 
 .my-pt-fixed{
   padding-top: 80px;
+}
+
+header{
+  height: 80px;
+}
+
+.jumbotron{
+  height: 800px;
+}
+
+.my-first-section{
+  height: 1000px;
+}
+
+.my-h-15{
+  height: 15%;
 }
