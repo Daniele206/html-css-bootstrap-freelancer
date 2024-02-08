@@ -24,6 +24,12 @@ header{
   height: 1000px;
 }
 
-.my-h-15{
-  height: 15%;
+.my-second-section{
+  height: 400px;
+}
+
+.my-container{
+  width: 70%;
+  background-color: violet;
+  margin: 0 auto;
 }
