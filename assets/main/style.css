@@ -1,0 +1,8 @@
+[class ^="container"]{
+  background-color: red;
+  min-height: 80px;
+}
+
+:root{
+  --bs-primary: green;
+}
