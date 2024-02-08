@@ -1,8 +1,13 @@
 [class ^="container"]{
   background-color: red;
-  min-height: 80px;
+  height: 80px;
+  border: 1px solid black;
 }
 
-:root{
-  --bs-primary: green;
+[class ^="col"]{
+  border: 1px solid black;
+}
+
+.my-pt-fixed{
+  padding-top: 80px;
 }
