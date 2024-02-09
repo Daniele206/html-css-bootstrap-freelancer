@@ -47,3 +47,32 @@ header{
   border: 3px solid white;
   border-radius: 6px;
 }
+
+@media screen and (max-width:1200px){
+  .my-fs-h1{
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:991px){
+  .my-fs-h1{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:768px){
+  .my-fs-h1{
+    font-size: 2.0rem;
+  }
+
+  .my-fs-jumbo{
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width:576px){
+  .my-fs-header{
+    font-size: 1.2rem !important;
+  }
+
+}
