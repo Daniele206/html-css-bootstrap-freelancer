@@ -12,24 +12,45 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+:root{
+  --my-primary: #2c3e50;
+  --my-light-primary: #3A546D;
+  --my-green: #1ABC9C;
+  --my-black: #333333;
+}
+
+.my-text-primary{
+  color: var(--my-primary);
+}
+
+.my-text-balck{
+  color: var(--my-black);
+}
+
 .my-pt-fixed{
   padding-top: 80px;
 }
 
-header{
-  height: 90px;background-color: #2c3e50;
+.my-bg-green{
+  background-color: var(--my-green);
 }
 
-.jumbotron{
-  background-color: #1ABC9C;
+.my-fs-h1{
+  font-size: 4.5rem;
 }
 
-.my-first-section{
-  height: 1000px;
+.my-fs-h2{
+  font-size: 3.5rem;
 }
 
-.my-second-section{
-  height: 400px;
+.my-trat{
+  height: 0;
+  border: 3px solid #2C3E50;
+  border-radius: 6px;
+}
+
+.my-bg-green .my-trat{
+  border-color: white;
 }
 
 .my-container{
@@ -38,19 +59,25 @@ header{
   margin: 0 auto;
 }
 
-.my-fs-h1{
-  font-size: 4.5rem;
+.my-card img{
+  border-radius: 15px;
 }
 
-.my-trat{
-  height: 0;
-  border: 3px solid white;
-  border-radius: 6px;
+header{
+  height: 90px;background-color: var(--my-primary);
+}
+
+.my-second-section{
+  height: 400px;
 }
 
 @media screen and (max-width:1200px){
   .my-fs-h1{
     font-size: 3.5rem;
+  }
+
+  .my-fs-h2{
+    font-size: 3rem;
   }
 }
 
@@ -58,11 +85,19 @@ header{
   .my-fs-h1{
     font-size: 2.5rem;
   }
+
+  .my-fs-h2{
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width:768px){
   .my-fs-h1{
     font-size: 2.0rem;
+  }
+
+  .my-fs-h2{
+    font-size: 1.5rem;
   }
 
   .my-fs-jumbo{
@@ -74,5 +109,4 @@ header{
   .my-fs-header{
     font-size: 1.2rem !important;
   }
-
 }
