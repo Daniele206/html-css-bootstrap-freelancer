@@ -44,6 +44,14 @@ body {
   font-size: 3.5rem;
 }
 
+.my-fs-p{
+  font-size: 1.2rem;
+}
+
+.my-pb{
+  padding-bottom: 4.5rem;
+}
+
 .my-trat{
   height: 0;
   border: 3px solid #2C3E50;
@@ -78,13 +86,37 @@ body {
   display: flex;
 }
 
+.my_form input,
+.my_form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.my_form input:focus,
+.my_form textarea:focus {
+  box-shadow: none;
+}
+
+.my_form input::placeholder,
+.my_form textarea::placeholder {
+  color: #2b3d4f;
+  
+} 
+
+.my_button {
+  background-color: #1abc9c;
+  border: none;
+}
+
+.my_button:hover {
+  background-color: #137964;
+}
+
 header{
   height: 90px;background-color: var(--my-primary);
   z-index: 999;
-}
-
-.my-second-section{
-  height: 400px;
 }
 
 @media screen and (max-width:1200px){
