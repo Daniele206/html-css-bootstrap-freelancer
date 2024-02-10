@@ -1,13 +1,3 @@
-[class ^="container"]{
-  border: 1px solid black;
-  background-color: red;
-}
-
-[class ^="col"]{
-  border: 1px solid black;
-  background-color: aqua;
-}
-
 body {
   font-family: 'Helvetica Neue', sans-serif;
 }
@@ -24,6 +14,10 @@ body {
   color: var(--my-primary);
 }
 
+.my-text-green{
+  color: var(--my-green);
+}
+
 .my-text-balck{
   color: var(--my-black);
 }
@@ -32,8 +26,16 @@ body {
   padding-top: 80px;
 }
 
+.my-bg-primary{
+  background-color: var(--my-primary);
+}
+
 .my-bg-green{
   background-color: var(--my-green);
+}
+
+.my-bg-light-primary{
+  background-color: var(--my-light-primary);
 }
 
 .my-fs-h1{
@@ -46,6 +48,10 @@ body {
 
 .my-fs-p{
   font-size: 1.2rem;
+}
+
+.my-fs-copy{
+  font-size: 0.8rem;
 }
 
 .my-pb{
@@ -64,7 +70,6 @@ body {
 
 .my-container{
   width: 60%;
-  background-color: violet;
   margin: 0 auto;
 }
 
@@ -114,8 +119,15 @@ body {
   background-color: #137964;
 }
 
+.footer-top .my-i{
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 50px;
+  aspect-ratio: 1;
+}
+
 header{
-  height: 90px;background-color: var(--my-primary);
+  height: 90px;
   z-index: 999;
 }
 
